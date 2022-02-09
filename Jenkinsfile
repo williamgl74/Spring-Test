@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy') {  
             steps { 
                 echo "Deploy ..."
-                sh "./run.sh"
+                sh "sudo ./run.sh"
             } 
         } 
     } 
