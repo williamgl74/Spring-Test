@@ -15,4 +15,9 @@ public class Controller {
     private String testHello() {
         return "Hello";
     }
+
+    @GetMapping("/new")
+    private String testNew() {
+        return "New";
+    }
 }
