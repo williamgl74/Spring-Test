@@ -14,6 +14,7 @@ pipeline {
         stage('Deploy') {  
             steps { 
                 echo "Deploy ..."
+                mvn spring-boot:run
             } 
         } 
     } 
