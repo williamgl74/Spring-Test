@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy') {  
             steps { 
                 echo "Deploy ..."
-                sh "./mvn spring-boot:run"
+                sh "./run.sh"
             } 
         } 
     } 
